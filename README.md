@@ -15,6 +15,5 @@ git commit -m "Initial commit"
 git remote add origin <GitHub URL>  
 git push origin master  
 git push -f origin master
-git pull origin master --allow-unrelated-histories
-
-
+git pull origin master --allow-unrelated-histories  
+git push --set-upstream origin master
